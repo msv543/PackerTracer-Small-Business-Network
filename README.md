@@ -1,5 +1,4 @@
-# PackerTracer-Small-Business-Network
-Cisco Packet Tracer lab demonstrating VLANs, trunking, inter-VLAN routing, DHCP, static routing, and network troubleshooting.
+# Cisco Small Business Network
 
 ##Technologies
 - Cisco Packet Tracer
@@ -7,3 +6,17 @@ Cisco Packet Tracer lab demonstrating VLANs, trunking, inter-VLAN routing, DHCP,
 - Cisco 2960 Switches
 - IPv4 Networking
 - Cisco IOS CLI
+
+## Skills Demonstrated
+- VLAN Configuration
+- Access and Trunk Ports
+- IEEE 802.1Q Encapsulation
+- Router-on-a-Stick
+- Inter-VLAN Routing
+- DHCP Configuration
+- Static Routing
+- Default Routing
+- Loopback Interfaces
+- MAC Address Learning
+- Network Verification
+- Connectivity Troubleshooting
