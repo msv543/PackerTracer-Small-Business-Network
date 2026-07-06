@@ -1,6 +1,6 @@
 # Cisco Small Business Network
 
-##Technologies
+## Technologies
 - Cisco Packet Tracer
 - Cisco 2911 Routers
 - Cisco 2960 Switches
