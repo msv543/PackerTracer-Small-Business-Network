@@ -90,6 +90,20 @@ Network Layout
 ![1-NetworkCreation](screenshots/1-Layout.png)
 ---
 VLAN Configuration and Trunking
-![2-NetworkCreation](screenshots/2-VLANs-Trunking.png)
+![1-NetworkCreation](screenshots/2-VLANs-Trunking.png)
 ---
+Inter-VLAN Routing
+![1-NetworkCreation](screenshots/3-InterVlan-Routing.png)
+---
+DHCP Configuration
+![1-NetworkCreation](screenshots/4-DHCP.png)
+---
+Router Configuration
+![1-NetworkCreation](screenshots/5-RouterConfig.png)
+---
+Default Static and Default Routes
+![1-NetworkCreation](screenshots/6-Default-Static-Routing.png)
+---
+Verifying Results
+![1-NetworkCreation](screenshots/7-Verify.png)
 
