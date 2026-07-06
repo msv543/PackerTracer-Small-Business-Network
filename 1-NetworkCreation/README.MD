@@ -86,7 +86,10 @@ Connected R1 and R2 using a /30 network.
 - Testing communication between VLANs
 - Pinging the remote loopback interface
 ## Screenshots
-
+Network Layout
 ![1-NetworkCreation](screenshots/1-Layout.png)
+---
+VLAN Configuration and Trunking
+![2-NetworkCreation](screenshots/2-VLANS-trunking.png)
 ---
 
