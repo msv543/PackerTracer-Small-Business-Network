@@ -90,6 +90,6 @@ Network Layout
 ![1-NetworkCreation](screenshots/1-Layout.png)
 ---
 VLAN Configuration and Trunking
-![2-NetworkCreation](screenshots/2-VLANS-trunking.png)
+![2-NetworkCreation](screenshots/2-VLANs-Trunking.png)
 ---
 
