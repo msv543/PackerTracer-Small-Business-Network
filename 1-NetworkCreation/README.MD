@@ -87,4 +87,4 @@ Connected R1 and R2 using a /30 network.
 - Pinging the remote loopback interface
 ## Screenshots
 
-![1-NetworkCreation](screenshots/1-layout.ping)
+![1-NetworkCreation](screenshots/1-layout.png)
