@@ -85,3 +85,6 @@ Connected R1 and R2 using a /30 network.
 - Pinging default gateways
 - Testing communication between VLANs
 - Pinging the remote loopback interface
+## Screenshots
+
+![Topology](screenshots/1-layout.ping)
