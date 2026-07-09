@@ -2,7 +2,8 @@
 
 ## Overview
 This Cisco Packet Tracer lab demonstrates how Virtual Local Area Networks (VLANs) logically segment a network and how trunk links allow multiple VLANs to communicate between switches. The lab demonstrates a small business network with two switches connected by an IEEE 802.1Q trunk. 
----
+
+
 
 ## Objectives
 - Create and configure VLANs on Cisco switches
@@ -12,13 +13,14 @@ This Cisco Packet Tracer lab demonstrates how Virtual Local Area Networks (VLANs
 - Test connectivity between hosts
 - Demonstrate Layer 2 network segmentation
 - Practice troubleshooting common VLAN and trunking problems
----
+
+
 
 ## Topology
 - 2 Cisco 2960 switches
 - 4 PCs
 - 1 Trunk Link
----
+
 
 ## VLAN Assignment
 ```
@@ -28,7 +30,7 @@ PC2       VLAN 20 (HR)       192.168.20.10
 PC3       VLAN 10 (SALES)    192.168.10.20
 PC4       VLAN 20 (HR)       192.168.20.20
 ```
----
+
 
 ## Configuration Steps
 1. Built the Network Topology.
