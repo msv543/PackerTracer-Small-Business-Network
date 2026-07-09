@@ -37,6 +37,7 @@ PC4       VLAN 20 (HR)       192.168.20.20
 - Added two Cisco 2960 Switches
 - Connected four PCs
 - Connected the switches using a Gigabit Ethernet trunk link.
+
 ![VLANs-TRUNKING](screenshots/lab/1-NetworkTopology.png)
 2. Created VLANs
 - VLAN 10 = SALES
@@ -47,6 +48,7 @@ PC4       VLAN 20 (HR)       192.168.20.20
 - Configured the Gigabit Ethernet interfaces between the switches as trunk ports using IEEE 802.1Q.
 5. Assigned IP Addresses
 - Configured static IPv4 addresses on each PC within its corresponding VLAN subnet.
+
 ![VLANs-TRUNKING](screenshots/lab/2-ConfiguringIPs.png)
 6. Verified Configuration
 - Used the following commands:
