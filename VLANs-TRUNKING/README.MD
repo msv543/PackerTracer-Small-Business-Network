@@ -54,7 +54,7 @@ PC4       VLAN 20 (HR)       192.168.20.20
 show vlan brief
 show interfaces trunk
 ```
-![VLANs-TRUNKING](screenshots/lab/VLANs-Trnks.png)
+![VLANs-TRUNKING](screenshots/lab/3-VLANs-Trnks.png)
 7. Tested Connectivity
 - Successful:
   - PC1 <-> PC3
@@ -63,4 +63,4 @@ show interfaces trunk
   - PC1 <-> PC2
   - PC3 <-> PC4
 These failed because inter-VLAN routing was not configured, demonstrating that VLANs isolate Layer 2 broadcast domains.
-![VLANs-TRUNKING](screenshots/lab/Verify-Connectivity.png)
+![VLANs-TRUNKING](screenshots/lab/4-Verify-Connectivity.png)
