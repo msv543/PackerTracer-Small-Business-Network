@@ -64,5 +64,7 @@ show interfaces trunk
 - Unsuccessful (Expected):
   - PC1 <-> PC2
   - PC3 <-> PC4
+
 These failed because inter-VLAN routing was not configured, demonstrating that VLANs isolate Layer 2 broadcast domains.
+
 ![VLANs-TRUNKING](screenshots/lab/4-Verify-Connectivity.png)
