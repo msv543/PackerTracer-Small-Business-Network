@@ -80,3 +80,7 @@ These failed because inter-VLAN routing was not configured, demonstrating that V
 ## Troubleshooting- Trunk Removed
 ![VLANs-TRUNKING](TB-Trunk-Removed/1-Identify.png)
 ![VLANs-TRUNKING](TB-Trunk-Removed/bitmap.png)
+## Troubleshoot Allowed VLAN Missing
+![VLANs-TRUNKING](TB-Allowed-VLAN-Missing/1-Identify.png)
+![VLANs-TRUNKING](TB-Allowed-VLAN-Missing/2-Verify.png)
+---
