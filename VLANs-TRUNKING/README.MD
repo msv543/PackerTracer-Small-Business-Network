@@ -84,3 +84,6 @@ These failed because inter-VLAN routing was not configured, demonstrating that V
 ![VLANs-TRUNKING](TB-Allowed-VLAN-Missing/1-Identify.png)
 ![VLANs-TRUNKING](TB-Allowed-VLAN-Missing/2-Verify.png)
 ---
+## Troubleshooting - Port Shutdown
+![VLANs-TRUNKING](TB-Port-Shutdown/1-Identify.png)
+![VLANs-TRUNKING](TB-Port-Shutdown/2-Verify.png)
