@@ -21,6 +21,13 @@ This Cisco Packet Tracer lab demonstrates how Virtual Local Area Networks (VLANs
 - 4 PCs
 - 1 Trunk Link
 
+## Troubleshooting Scenarios
+- Missing VLAN
+- Incorrect VLAN Access
+- Trunk Misconfiguration
+- Allowed VLAN Restriction
+- Disabled Switch Port
+
 
 ## VLAN Assignment
 ```
@@ -87,3 +94,7 @@ These failed because inter-VLAN routing was not configured, demonstrating that V
 ## Troubleshooting - Port Shutdown
 ![VLANs-TRUNKING](TB-Port-Shutdown/1-Identify.png)
 ![VLANs-TRUNKING](TB-Port-Shutdown/2-Verify.png)
+
+## Results
+
+Successfully configured VLANs and IEEE 802.1Q trunking between two Cisco switches. Verified that hosts within the same VLAN communicated successfully across the trunk while communication between different VLANs was blocked, demonstrating proper Layer 2 segmentation. Practiced troubleshooting common VLAN and trunking issues using Cisco IOS verification commands.
