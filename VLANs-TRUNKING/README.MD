@@ -72,3 +72,8 @@ These failed because inter-VLAN routing was not configured, demonstrating that V
 ## Troubleshooting - Missing VLAN
 ![VLANs-TRUNKING](TB-MissingVLAN/1-Identify.png)
 ![VLANs-TRUNKING](TB-MissingVLAN/2-Fixed.png)
+---
+## Troubleshooting - Incorrect Access VLAN
+[VLANs-TRUNKING](TB-Incorrect-Access-VLAN/1-Identify.png)
+[VLANs-TRUNKING](TB-Incorrect-Access-VLAN/2-Verify.png)
+---
