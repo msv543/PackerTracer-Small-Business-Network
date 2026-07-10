@@ -68,3 +68,7 @@ show interfaces trunk
 These failed because inter-VLAN routing was not configured, demonstrating that VLANs isolate Layer 2 broadcast domains.
 
 ![VLANs-TRUNKING](screenshots/lab/4-Verify-Connectivity.png)
+---
+## Troubleshooting - Missing VLAN
+![VLANs-TRUNKING](TB-MissingVLAN/1-Identify.png)
+![VLANs-TRUNKING](TB-MissingVLAN/2-Fixed.png)
