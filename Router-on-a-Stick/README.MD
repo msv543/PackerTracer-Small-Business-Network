@@ -37,6 +37,7 @@ PC4           DHCP             192.168.99.21         255.255.255.0          Mana
 - VLAN 99 - MANAGEMENT
 3. Assigned switch access ports to their appropiate VLANs for each department
 4. Configured the uplink between the switch and router as an IEEE 802.1Q trunk to carry traffic for multiple VLANs
+![Router-on-a-Stick](screenshots/2-VLANs.png)
 5. COnfigured Router-on-a-Stick by creating router subinterfaces for each VLAN and assigning gateway IP addresses.
 6. Enabled 802.1Q encapsulation on each router subinterface to provide inter-VLAN routing
 7. Configured DHCP pools on the router for each VLAN:
@@ -44,11 +45,14 @@ PC4           DHCP             192.168.99.21         255.255.255.0          Mana
 - Default Gateway
 - DNS Server
 - Excluded gateway and reserved IP addresses
+![Router-on-a-Stick](screenshots/3-DHCP.png)
 8. Configured the switch management interface using VLAN 99 and assigned a management IP address
 9. Enabled SSH on Switch1 using the management IP address 
+![Router-on-a-Stick](screenshots/4-SSH.png)
 10. Connected the router to a simulated ISP router using a point-to-point WAN network
 11. Configured the default route on the branch router to forward unknown traffic to the ISP router
 12. Configured static routes on the ISP router to provide return paths to each internal VLAN
+![Router-on-a-Stick](screenshots/5-Default-Routes.png)
 13. Verified DHCP lease assignment on all client devices
 14. Verified trunk operation using Cisco IOS verification commands
 15. Tested inter-VLAN communication by successfully pinging devices across different VLANs
