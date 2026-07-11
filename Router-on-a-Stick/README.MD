@@ -45,14 +45,15 @@ PC4           DHCP             192.168.99.21         255.255.255.0          Mana
 - DNS Server
 - Excluded gateway and reserved IP addresses
 8. Configured the switch management interface using VLAN 99 and assigned a management IP address
-9. Connected the router to a simulated ISP router using a point-to-point WAN network
-10. Configured the default route on the branch router to forward unknown traffic to the ISP router
-11. Configured static routes on the ISP router to provide return paths to each internal VLAN
-12. Verified DHCP lease assignment on all client devices
-13. Verified trunk operation using Cisco IOS verification commands
-14. Tested inter-VLAN communication by successfully pinging devices across different VLANs
-15. Verified end-t0-end routing by confirming connectivity between the branch network and the simulated ISP router
-16. Used Cisco IOS verification commands:
+9. Enabled SSH on Switch1 using the management IP address 
+10. Connected the router to a simulated ISP router using a point-to-point WAN network
+11. Configured the default route on the branch router to forward unknown traffic to the ISP router
+12. Configured static routes on the ISP router to provide return paths to each internal VLAN
+13. Verified DHCP lease assignment on all client devices
+14. Verified trunk operation using Cisco IOS verification commands
+15. Tested inter-VLAN communication by successfully pinging devices across different VLANs
+16. Verified end-t0-end routing by confirming connectivity between the branch network and the simulated ISP router
+17. Used Cisco IOS verification commands:
 ```
 show vlan brief
 show interfaces trunk
