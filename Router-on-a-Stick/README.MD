@@ -27,3 +27,6 @@ PC2           DHCP             192.168.20.21         255.255.255.0          IT
 PC3           DHCP             192.168.30.21         255.255.255.0          HR
 PC4           DHCP             192.168.99.21         255.255.255.0          Management
 ```
+## Steps Performed
+
+1. 
