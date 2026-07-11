@@ -13,8 +13,9 @@ This project demonstrates the deployment of Router-on-a-Stick configuration in C
 
 ## IP Addressing
 
-Device        Interface        IP Address            Subnet Mask            Purpose
 ```
+Device        Interface        IP Address            Subnet Mask            Purpose
+--- 
 ISP           G0/0             209.165.200.1         255.255.255.252        WAN Link
 R1            G0/0             209.165.200.2         255.255.255.252        WAN Link to ISP
 R1            G0/1.10          192.168.10.1          255.255.255.0          VLAN 10 Gateway
