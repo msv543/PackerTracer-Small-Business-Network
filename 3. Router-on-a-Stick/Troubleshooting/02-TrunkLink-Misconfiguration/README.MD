@@ -49,11 +49,10 @@ The switch uplink connecting the Layer 2 switch to the router was mistakenly con
 
 ## Resolution
 
-The switch uplink was reconfigured as a trunk and configured to allow all required VLANs.
+The switch uplink was reconfigured as a trunk.
 ```
-interface GigabitEthernet 0/0
+interface GigabitEthernet 0/1
 switchport mode trunk
-switchport trunk allowed vlan 10,20,30,99
 no shutdown
 ```
 
