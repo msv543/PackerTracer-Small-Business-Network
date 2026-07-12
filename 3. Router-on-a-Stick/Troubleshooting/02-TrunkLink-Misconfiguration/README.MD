@@ -21,8 +21,6 @@ Users across multiple departments report that they cannot communicate with devic
 4. Examined the switch uplink configuration.
 5. Verified trunk status using show interfaces trunk.
 6. Determined that the uplink had been configured as an access port instead of a trunk.
-7. Reconfigured the uplink as an 802.1Q trunk.
-8. Verified restoration of network connectivity.
 
 ## Commands used
 
