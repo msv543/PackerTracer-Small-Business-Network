@@ -5,7 +5,7 @@ A user in the HR department (VLAN 30) reports they cannot communicate with devic
 ## Symptoms
 
 - PC3 cannot ping its default gateway (192.168.30.1).
-- PC3 cannot communicate with devices in VLAN 10 or VLAN 20.
+- PC3 cannot communicate with devices in VLAN 10, 20 and 99.
 - PC3 cannot reach the simulated ISP router.
 - DHCP may still function if the lease was already obtained, but inter-VLAN routing fails.
 - Users in VLANs 10, 20 and 99 are unaffected.
