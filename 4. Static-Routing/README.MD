@@ -26,9 +26,9 @@ R3         G0/2       192.168.30.1/24
 
 ## Steps Performed
 
-1. Configured Router Interfaces
-2. Configured Static Routes
-3. Configured PC networking
+1. Configured Router Interfaces by assigning IPv4 addresses and using 'no shutdown' command.
+2. Configured Static Routes on each router so that every router knew how to reach remote networks.
+3. Configured PC networking by assinging: IP address, Subnet mask, Default Gateway.
 4. Verified Connectivity by using the following commands:
 ```
 show ip route
