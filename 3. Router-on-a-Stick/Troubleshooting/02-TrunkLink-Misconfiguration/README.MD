@@ -63,6 +63,6 @@ After restoring the trunk configuration:
 - All VLANs were successfully forwarding traffic.
 - Clients regained connectivity to their default gateways.
 - Inter-VLAN communication was restored.
-- DHCP address assignmed functioned correctly.
+- DHCP address assign functioned correctly.
 - End-to-end connectivity between VLANs was successfully verified.
 
