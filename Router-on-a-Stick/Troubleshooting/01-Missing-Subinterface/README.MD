@@ -22,6 +22,8 @@ The issue appeared to affect only VLAN 30, indicating the switch trunk and other
 4. Examined the router's interfaces.
 5. Discovered that the VLAN 30 router subinterface was missing.
 
+![Router-on-a-Stick](screenshots/MRS-Missing.png)
+
 ## Commands Used
 - On PC3
 ```
@@ -56,6 +58,7 @@ encapsulation dot1Q 30
 ip address 192.168.30.1 255.255.255.0
 no shutdown
 ```
+![Router-on-a-Stick](screenshots/MRS-Creating.png)
 
 ## Verification
 
@@ -65,3 +68,6 @@ After restoring the router subinterface:
 - PC3 successfully reached the simulated ISP router.
 - show ip interface brief confirmed that GigabitEthernet 0/1.30 was operational.
 - show ip route displayed the connected route for 192.168.30.0/24.
+
+![Router-on-a-Stick](screenshots/MRS-Success.png)
+![Router-on-a-Stick](screenshots/MRS-Success2.png)
