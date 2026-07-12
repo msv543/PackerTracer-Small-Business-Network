@@ -9,7 +9,7 @@ Users across multiple departments report that they cannot communicate with devic
 - Devices cannot communicate between VLANs.
 - Clients cannot reach their default gateway.
 - DHCP requests fail.
-- Pings to reouter subinterfaces fail.
+- Pings to router subinterfaces fail.
 - Inter-VLAN routing is unavailable.
 - The trunk link is no longer forwarding tagged VLAN traffic.
 
