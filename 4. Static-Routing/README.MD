@@ -35,6 +35,9 @@ R3         G0/2       192.168.30.1/24
 - Pinging between PCs
 - Pinging router interfaces
 - Performing end-to-end connectivity tests
+
+![Static-Routing](screenshots/3-RouterPing.png)
+
 5. Verified Routing Tables by using the following commands:
 ```
 show ip route
@@ -51,3 +54,5 @@ Successful verification included:
 - Routers successfully reached remote networks.
 - Routing tables displayed the expected static routes.
 - No packet loss during end-to-end testing.
+
+![Static-Routing](screenshots/2-Pinging.png)
