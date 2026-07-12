@@ -9,6 +9,8 @@ This Cisco Packet Tracer Lab demonstrates how to configure static routes between
 - 2 Cisco Switches
 - 3 PCs
 
+![Static-Routing](screenshots/Topology.png)
+
 ## IP Addressing
 
 ```
@@ -39,6 +41,7 @@ show ip route
 show ip interface brief
 show running-config
 ```
+![Static-Routing](screenshots/1-AssigningRoutes.png)
 
 ## Verification
 
