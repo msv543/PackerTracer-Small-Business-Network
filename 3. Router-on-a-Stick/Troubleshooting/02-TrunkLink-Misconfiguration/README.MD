@@ -13,6 +13,8 @@ Users across multiple departments report that they cannot communicate with devic
 - Inter-VLAN routing is unavailable.
 - The trunk link is no longer forwarding tagged VLAN traffic.
 
+![Router-on-a-Stick](screenshots/TRM-FailPing.png)
+
 ## Investigation
 
 1. Verified that client devices had correct physical connection.
@@ -21,6 +23,8 @@ Users across multiple departments report that they cannot communicate with devic
 4. Examined the switch uplink configuration.
 5. Verified trunk status using show interfaces trunk.
 6. Determined that the uplink had been configured as an access port instead of a trunk.
+
+![Router-on-a-Stick](screenshots/TRM-Identify.png)
 
 ## Commands used
 
@@ -56,6 +60,8 @@ switchport mode trunk
 no shutdown
 ```
 
+![Router-on-a-Stick](screenshots/TRM-Fixed.png)
+
 ## Verification
 
 After restoring the trunk configuration:
@@ -65,4 +71,6 @@ After restoring the trunk configuration:
 - Inter-VLAN communication was restored.
 - DHCP address assign functioned correctly.
 - End-to-end connectivity between VLANs was successfully verified.
+
+![Router-on-a-Stick](screenshots/TRM-Verify.png)
 
