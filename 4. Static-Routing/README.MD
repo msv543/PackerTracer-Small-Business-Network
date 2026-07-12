@@ -12,7 +12,7 @@ This Cisco Packet Tracer Lab demonstrates how to configure static routes between
 ## IP Addressing
 
 ```
-Device Interface IP Address
+Device    Interface   IP Address
 ---
 PC1        NIC        192.168.10.10/24
 PC2        NIC        192.168.30.10/24
