@@ -9,7 +9,9 @@ A user in the HR department (VLAN 30) reports they cannot communicate with devic
 - PC3 cannot reach the simulated ISP router.
 - DHCP may still function if the lease was already obtained, but inter-VLAN routing fails.
 - Users in VLANs 10, 20 and 99 are unaffected.
+
 ![Router-on-a-Stick](screenshots/MRS-Failedping.png)
+
 ## Investigation
 
 The issue appeared to affect only VLAN 30, indicating the switch trunk and other VLANs were operating correctly.
