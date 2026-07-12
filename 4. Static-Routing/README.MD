@@ -30,11 +30,9 @@ R3         G0/2       192.168.30.1/24
 2. Configured Static Routes on each router so that every router knew how to reach remote networks.
 3. Configured PC networking by assinging: IP address, Subnet mask, Default Gateway.
 4. Verified Connectivity by using the following commands:
-```
-show ip route
-show ip interface brief
-show running-config
-```
+- Pinging between PCs
+- Pinging router interfaces
+- Performing end-to-end connectivity tests
 5. Verified Routing Tables by using the following commands:
 ```
 show ip route
