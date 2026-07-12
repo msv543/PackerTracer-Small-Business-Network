@@ -27,7 +27,10 @@ The issue appeared to affect only VLAN 30, indicating the switch trunk and other
 ```
 ipconfig
 ping 192.168.30.1
-ping 192.168.10.10
+ping 192.168.10.21
+ping 192.168.20.21
+ping 192.168.99.21
+ping 209.165.200.1
 ```
 - On Switch
 ```
@@ -38,7 +41,6 @@ show interfaces trunk
 ```
 show ip interface brief
 show running-config
-show ip route
 ```
 
 ## Root Cause
