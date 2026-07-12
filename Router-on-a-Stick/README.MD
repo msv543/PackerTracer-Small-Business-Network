@@ -70,17 +70,3 @@ show ip dhcp binding
 show ip dhcp pool
 show running-conifg
 ```
-
-# Troubleshooting
-
-## Missing Subinterface
-
-- Only VLAN 30 loses connectivity
-- Sales and IT continue working normally
-- HR PCs cannot reach their gateway or other VLANs
-![Router-on-a-Stick](screenshots/MRS-Identify.png)
-![Router-on-a-Stick](screenshots/MRS-Fix.png)
-![Router-on-a-Stick](screenshots/MRS-Verify.png)
----
-
-
