@@ -49,5 +49,5 @@ ip route 192.168.10.0 255.255.255.0 10.0.12.1
 - Successfully pinged PC1 from PC2.
 - Confirmed traceroute completed through all three routers.
 
-![Static-Routing](screenshots/NHA-Verify.png)
+![Static-Routing](screenshots/NHA-verify.png)
 
