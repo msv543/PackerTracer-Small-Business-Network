@@ -11,7 +11,7 @@ PC1 is unable to communicate with PC2 because one of the required static routes 
 - Ping fails at R2 during a traceroute.
 
 ![Static-Routing](screenshots/NHA-Ping.png)
-
+!{Static-Routing](Troubleshooting/screenshots/NHA-verify.png)
 ## Investigation
 
 1. Verified that all router interfaces were up and operational.
